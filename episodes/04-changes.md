@@ -535,6 +535,17 @@ $ git log --oneline --graph
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::  instructor
+
+## Ambiguous Glyphs
+
+In some fonts the glyphs for one (`1`) and lower case l (`l`), and sometimes even for vertical bar (`|`),  can look confusingly similar. The same is true for capital o (`O`) and zero (`0`). This ambiguity may lead to errors for learners who follow along. It might also be used by someone with nefarious intentions.
+
+Introducing `git log -1` might be a good point during the lesson to make learners aware of this problem.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 :::::::::::::::::::::::::::::::::::::::::  callout
 
 ## Directories
